@@ -1,6 +1,8 @@
-import { PrismaClient } from '@prisma/client';
+import { PrismaClient as PClient1 } from "../prisma/generated/client1";
+import { PrismaClient as PClient2 } from "../prisma/generated/client2";
 
-const prisma = new PrismaClient();
+const prisma1 = new PClient1();
+const prisma2 = new PClient2();
 
 async function main() {
     const user = await prisma.user.create({
