@@ -1,0 +1,96 @@
+number of nodes = 4
+
+1) User - id, username, password, owned_games, reviews, transactions_done
+2) Game - id, name, release_date, developer, genre, price 
+3) Reviews - id, game_id, user_id, review , rating
+4) Transactions - id, game_id, user_id, amount, status
+
+Users -
+
+1) get all users who own the game 'TEKKEN 7'
+2) get all users who own more than three games
+3) get all users who own more than 2 reviews
+
+attribute use matrix - 
+q1 010100
+q2 010100
+q3 010010
+
+Game - 
+1) get all games published by 'Electronic Arts'
+2) get all games belonging to genre 'Strategy'
+3) get all games under '15' dollars
+4) get all games after date '2023-01-01'
+
+attribute use matrix - 
+q1 010100
+q2 010010
+q3 010001
+q4 011000
+
+access matrix
+s1  30  25  0   5
+s2  5   3   5   0
+s3  5   0   20  24
+s4  10  0   0   7
+
+First Half
+{1, 2, 3, 6}
+
+Second Half
+{1, 4, 5}
+
+Split is:
+4
+Shift is
+0.
+
+Reviews - 
+1) get all reviews for id 1
+2) get all reviews more than 3.5 rating
+
+attribute use matrix - 
+q1 01011
+q2 00011
+
+access matrix
+s1  1   3
+s2  15  13
+s3  0   2
+s4  10  0
+
+First Half
+{1, 3, 5}
+
+Second Half
+{1, 2, 4}
+
+Split is:
+3
+Shift is
+0
+
+Transactions - 
+1) get all transactions above 15
+2) get the count of the most sold game
+
+attribute use matrix - 
+q1 00011
+q2 01001
+
+access matrix
+s1  4   6
+s2  9   11
+s3  3   1
+s4  15  17
+
+First Half
+{1, 2}
+
+Second Half
+{1, 3, 4, 5}
+
+Split is:
+1
+Shift is
+1

@@ -1,13 +1,13 @@
-n_queries = 4
-n_attributes = 4
+n_queries = 2
+n_attributes = 5
 #attribute usage matrix
-aum = [[1,0,1,0],[0,1,1,0],[0,1,0,1],[0,0,1,1]]
+aum = [[0,0,0,1,1],[0,1,0,0,1]]
 
 #number of sites
-n_sites = 3 
+n_sites = 4
 
 #access matrix
-acc = [[15,5,25,3],[20,0,25,0],[10,0,25,0]]
+acc = [[4,6],[9,11],[3,1],[15,17]]
 
 #prefix sum for each query
 pre = [0 for i in range(n_queries)]
@@ -27,12 +27,15 @@ for i in range(n_attributes):
         for q in range(n_queries):
             if aum[q][i]==1 and aum[q][j]==1:
                 aam[i][j] = aam[i][j]+pre[q]
-          
+
+print()
 print("Attribute affinity matrix")
 for i in range(n_attributes):
     print(aam[i])
+print()
 print("Access Site Sums")
 print(pre)
+print()
 
 def bond(Ax,Ay):
     if Ax==-1 or Ay==-1:
@@ -46,6 +49,7 @@ def cont(Ai,Ak,Aj):
     print("bond ",Ai, "bond", Ak, " = ", bond(Ai,Ak))
     print("bond ",Ak, "bond", Aj, " = ", bond(Ak,Aj))
     print("bond ",Ai, "bond", Aj, " = ", bond(Ai,Aj))
+    print()
     return 2*bond(Ai,Ak) + 2*bond(Ak,Aj) - 2*bond(Ai,Aj)
 
 #Bond energy algorithm
@@ -83,8 +87,10 @@ def BEA():
             ca[maxi] = index
         print(ca)
         index = index + 1
+    print()
     print("FINAL Clustered Affinity Matrix")
-    print(ca)
+    print("clustered affinity matrix:", ca)
+    print()
     return ca
 
 CA = BEA()
@@ -93,45 +99,47 @@ for i in range(n_attributes):
     for j in range(n_attributes):
         ca[i][j] = aam[CA[i]][CA[j]]
 
-print(ca)
-
+print("ca: ", ca)
+print()
 
 def shift_row(mat):
     row_first=[]
     for i in range(n_attributes):
         row_first.append(mat[0][i])
-    for i in range(1,n_attributes):
+    for i in range(1,n_queries):
         for j in range(n_attributes):
             mat[i-1][j]=mat[i][j]
     for i in range(n_attributes):
-        mat[n_attributes-1][i]=row_first[i]
+        mat[n_queries-1][i]=row_first[i]
    # print(row_first)
     return mat
    
 def shift_column(mat):
     col_first=[]
-    for i in range(n_attributes):
+    for i in range(n_queries):
         col_first.append(mat[i][0])
-    for i in range(n_attributes):
+    for i in range(n_queries):
         for j in range(1,n_attributes):
             mat[i][j-1]=mat[i][j]
-    for i in range(n_attributes):
+    for i in range(n_queries):
         mat[i][n_attributes-1]=col_first[i]
     return mat
 
 #Partioning
 
 start=n_attributes-2
-aum = [[1,0,1,0],[0,1,0,1],[0,1,1,0],[0,0,1,1]]
+# aum = [[1,0,1,0],[0,1,0,1],[0,1,1,0],[0,0,1,1]]
 AQ=[]
-for i in range(n_attributes):
+for i in range(n_queries):
     row=[]
     for j in range(n_attributes):
         if aum[i][j]==1:
             row.append(j)
     AQ.append(row)
 
-print(AQ)
+print("aum ", aum)
+print("AQ  ", AQ)
+print()
 
 TQ=[]
 BQ=[]
@@ -146,14 +154,15 @@ for i in range(n_queries):
         OQ.append(i)
 
     
-print(TQ)
-print(BQ)
-print(OQ)
+print("TQ", TQ)
+print("BQ", BQ)
+print("OQ", OQ)
+print()
 
 CTQ=0
 CBQ=0
 COQ=0
-
+print(f'pre: {pre}')
 for i in range(len(TQ)):
     CTQ=CTQ+pre[TQ[i]]
 for i in range(len(BQ)):
@@ -163,7 +172,7 @@ for i in range(len(OQ)):
 best=CTQ*CBQ-COQ*COQ
 
 shift=0
-for i in range(4):
+for i in range(n_queries):
     for j in range(n_attributes-3,0,-1):
         TQ=[]
         BQ=[]
@@ -196,7 +205,7 @@ for i in range(4):
     shift_row(aum)
     shift_column(aum)
     AQ=[]
-    for i in range(n_attributes):
+    for i in range(n_queries):
         row=[]
         for j in range(n_attributes):
             if aum[i][j]==1:
@@ -210,15 +219,18 @@ for i in range(shift):
     CA[0]=ele
 F1={1}
 F2={1}
+
 print("First Half")
 for i in range(0,start):
     F1.add(CA[i]+1)
-print(F1)    
+print(F1)
+print()   
 print("Second Half")
 
 for i in range(start,n_attributes):
     F2.add(CA[i]+1)
 print(F2)  
+print()
 print("Split is:")
 print(start)
 print("Shift is")
