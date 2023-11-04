@@ -8,7 +8,7 @@ async function main() {
   const game_price = await prisma1.game.findMany({
     where: {
         price: {
-        
+          lt: 15,
         }
     },
     select: {
