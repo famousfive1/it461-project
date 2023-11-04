@@ -10,7 +10,9 @@
     "std1": "prisma studio --schema prisma/schema1.prisma",
     "std2": "prisma studio --schema prisma/schema2.prisma",
     "std3": "prisma studio --schema prisma/schema3.prisma",
-    "std4": "prisma studio --schema prisma/schema4.prisma"
+    "std4": "prisma studio --schema prisma/schema4.prisma",
+    "add": "ts-node scripts/add.ts",
+    "del": "ts-node scripts/delete.ts",
   },
   "keywords": [],
   "author": "",
