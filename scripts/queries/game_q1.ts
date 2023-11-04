@@ -15,7 +15,7 @@ async function main() {
   const game_dev = await prisma2.game.findMany({
     where: {
       developer: {
-        contains: "EA SPORTS",
+        contains: "BANDAI NAMCO",
       },
     },
     select: {

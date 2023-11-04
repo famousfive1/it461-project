@@ -1,0 +1,41 @@
+generator client {
+  provider = "prisma-client-js"
+  output = "./generated/client5"
+  previewFeatures = ["metrics"]
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL5")
+}
+
+model User {
+  id        Int     @id
+  username  String  @unique
+  password  String
+}
+
+model Game {
+  id        Int @id
+  name      String
+  release   DateTime
+  developer String
+  genre     String
+  price     Float
+}
+
+model Review {
+  id        Int     @id
+  game_id   Int
+  user_id   Int
+  review    String
+  rating    Float
+}
+
+model Transaction {
+  id        Int     @id
+  game_id   Int
+  user_id   Int
+  amount    Float
+  status    String
+}
