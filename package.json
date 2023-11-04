@@ -6,7 +6,11 @@
   "scripts": {
     "gen": "ts-node util/util.ts generate",
     "reset": "ts-node util/util.ts \"migrate reset --force\"",
-    "mig": "ts-node util/util.ts \"migrate dev --name init\""
+    "mig": "ts-node util/util.ts \"migrate dev --name init\"",
+    "std1": "prisma studio --schema prisma/schema1.prisma",
+    "std2": "prisma studio --schema prisma/schema2.prisma",
+    "std3": "prisma studio --schema prisma/schema3.prisma",
+    "std4": "prisma studio --schema prisma/schema4.prisma"
   },
   "keywords": [],
   "author": "",
