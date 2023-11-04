@@ -60,15 +60,15 @@ function generateGames(i: number): {
     price: number
 } {
     const id = i;
-    const name = "";
-    const release_date = "";
-    const developer = "";
-    const genre = "";
-    const price = 0;
+    const name = records[i].name;
+    const release_date = records[i].release_date;
+    const developer = records[i].developer;
+    const genre = records[i].genre;
+    const price = Number.parseFloat( records[i].original_price.replace('$', '') );
     return { id, name, release_date, developer, genre, price };
 }
 
-const count = 5;
+const count = 100;
 const iter = Array.apply(null, Array(count));
 export const user = iter.map((_, i) => generateRandomUserData(i));
 export const trans = iter.map((_, i) => generateRandomTransactions(i));

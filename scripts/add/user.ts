@@ -3,13 +3,13 @@ import { PrismaClient as PClient2 } from "../../prisma/generated/client2";
 import { PrismaClient as PClient3 } from "../../prisma/generated/client3";
 import { PrismaClient as PClient4 } from "../../prisma/generated/client4";
 
-import { alpha as data } from "../../util/random";
+import { user } from "../../util/random";
 
 const prisma = [new PClient1(), new PClient2(), new PClient3(), new PClient4()];
 
 async function main() {
     await Promise.all(prisma.map(
-        (c, i) => c.user.createMany({ data: data.slice(25*i, 25*i + 25) })
+        (c, i) => c.user.createMany({ data: user.slice(25*i, 25*i + 25) })
     ));
     console.log("Added");
 };
