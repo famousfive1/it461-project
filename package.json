@@ -6,7 +6,7 @@
   "scripts": {
     "gen": "ts-node util/util.ts generate",
     "reset": "ts-node util/util.ts \"migrate reset --force\"",
-    "mig": "ts-node util/util.ts \"migrate dev\""
+    "mig": "ts-node util/util.ts \"migrate dev --name init\""
   },
   "keywords": [],
   "author": "",
