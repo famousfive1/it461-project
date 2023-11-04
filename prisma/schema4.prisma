@@ -28,6 +28,6 @@ model Review {
 model Transaction {
   id        Int     @id
   user_id   Int
-  amount    String
+  amount    Float
   status    String
 }

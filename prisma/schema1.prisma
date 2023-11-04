@@ -21,6 +21,6 @@ model User {
 model Game {
   id        Int     @id
   name      String
-  release   DateTime
-  price     String
+  release   DateTime @db.Date
+  price     Float
 }
