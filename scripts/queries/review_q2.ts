@@ -37,9 +37,13 @@ console.log(res);
 main()
   .then(async () => {
     await prisma4.$disconnect()
+    await prisma3.$disconnect()
+
   })
   .catch(async (e) => {
     console.error(e)
     await prisma4.$disconnect()
+    await prisma3.$disconnect()
+
     process.exit(1)
   })
