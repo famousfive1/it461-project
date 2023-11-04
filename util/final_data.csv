@@ -1,101 +1,101 @@
 id,name,release_date,developer,genre,original_price
-0,DOOM,2016-05-12,id Software,Action,$19.99
-1,PLAYERUNKNOWN'S BATTLEGROUNDS,2017-12-21,PUBG Corporation,"Action,Adventure,Massively Multiplayer",$29.99
-2,BATTLETECH,2018-04-24,Harebrained Schemes,"Action,Adventure,Strategy",$39.99
-3,DayZ,2018-12-13,Bohemia Interactive,"Action,Adventure,Massively Multiplayer",$44.99
-4,EVE Online,2003-05-06,CCP,"Action,Free to Play,Massively Multiplayer,RPG,Strategy",Free
-5,Grand Theft Auto V: Premium Online Edition,,Rockstar North,"Action,Adventure",
-6,Devil May Cry 5,2019-03-07,"CAPCOM Co., Ltd.",Action,$59.99
-7,Human: Fall Flat,2016-07-22,No Brakes Games,"Adventure,Indie",$14.99
-8,They Are Billions,2017-12-12,Numantian Games,"Strategy,Early Access",$29.99
-9,Warhammer: Chaosbane,2019-05-31,Eko Software,"Action,Adventure,RPG",$49.99
-10,For The King,2018-04-19,IronOak Games,"Adventure,Indie,RPG,Strategy",$19.99
-11,Danganronpa V3: Killing Harmony,2017-09-25,"Spike Chunsoft Co., Ltd.",Adventure,$39.99
-12,TERA,2015-05-05,"Bluehole, Inc.","Action,Adventure,Free to Play,Massively Multiplayer,RPG",Free to Play
-13,Call of Duty®: Modern Warfare® Remastered,2017-07-27,"Raven Software,Beenox",Action,1.020
-14,Stonehearth,2018-07-25,Radiant Entertainment,"Indie,Simulation,Strategy",$19.99
-15,Hearts of Iron IV: Mobilization Pack,,Paradox Development Studio,"Simulation,Strategy",
-16,Clone Drone in the Danger Zone,2017-03-16,Doborog Games,"Action,Indie,Early Access",$14.99
-17,GOD EATER 3,2019-02-07,BANDAI NAMCO Studios Inc.,Action,$59.99
-18,War Robots,2018-04-05,Pixonic,"Action,Free to Play",Free To Play
-19,Halo Wars: Definitive Edition,2017-04-20,"Ensemble Studios,Behaviour Interactive,343 Industries",Strategy,$19.99
-20,Call of Duty®: Black Ops,2010-11-09,Treyarch,Action,1.020
-21,Phoenix Wright: Ace Attorney Trilogy / 逆転裁判123 成歩堂セレクション,2019-04-09,"CAPCOM Co., Ltd.",Adventure,$29.99
-22,Team Sonic Racing™,2019-05-21,Sumo Digital,Racing,$39.99
-23,Titan Quest Anniversary Edition,2016-08-31,"Iron Lore Entertainment,THQ Nordic","Action,RPG",$19.99
-24,Grand Theft Auto IV,2008-12-02,"Rockstar North,Rockstar Toronto","Action,Adventure",$19.99
-25,Portal Bundle,,Valve,"Action,Adventure",
-26,Portal,2007-10-10,Valve,Action,$9.99
-27,Viscera Cleanup Detail,2015-10-23,RuneStorm,"Indie,Simulation",$12.99
-28,Neverwinter Nights: Enhanced Edition,2018-03-27,Beamdog,RPG,$57.91
-29,Ni no Kuni™ II: Revenant Kingdom,2018-03-23,Level-5,"Adventure,RPG",$59.99
-30,Tree of Savior (English Ver.),2016-03-28,"IMCGAMES Co.,Ltd.","Free to Play,Massively Multiplayer,RPG",Free to Play
-31,Hellblade: Senua's Sacrifice,2017-08-08,Ninja Theory,"Action,Adventure,Indie",$29.99
-32,Danganronpa 2: Goodbye Despair,2016-04-18,"Spike Chunsoft Co., Ltd.,Abstraction Games",Adventure,$19.99
-33,Yakuza 0,2018-08-01,SEGA,"Action,Adventure,RPG",$19.99
-34,The Escapists 2,2017-08-21,"Team17 Digital Ltd,Mouldy Toof Studios","Indie,Simulation,Strategy",$19.99
-35,"Star Wars: Battlefront 2 (Classic, 2005)",2005-11-01,Pandemic Studios,Action,$9.99
-36,Wizard101,2008-09-02,KingsIsle Entertainment,"Free to Play,Massively Multiplayer,RPG",Free To Play
-37,Life is Strange 2,2018-09-26,DONTNOD Entertainment,Adventure,$7.99
-38,Kingdoms of Amalur: Reckoning™,2012-02-07,"Big Huge Games,38 Studios","Action,RPG",$19.99
-39,Doom Classic Complete,,id Software,Action,$14.99
-40,"Warhammer 40,000: Dawn of War II: Retribution",2011-02-28,"Relic Entertainment,Feral Interactive (Mac/Linux)",Strategy,$29.99
-41,GOD WARS The Complete Legend,2019-06-13,"KADOKAWA GAMES, LTD","Adventure,RPG,Simulation",$29.99
-42,Counter-Strike: Source,2004-11-01,Valve,Action,$9.99
-43,The Evil Within,2014-10-13,Tango Gameworks,Action,$19.99
-44,The Binding of Isaac: Rebirth Complete Bundle,,"Nicalis, Inc.","Action,Adventure,Indie",
-45,Bright Memory(Early Access) / 光明记忆,2019-01-11,FYQD-Studio,"Action,Adventure,Indie,Early Access",$6.99
-46,STAR WARS™ Empire at War - Gold Pack,2006-02-16,Petroglyph,Strategy,$19.99
-47,Dishonored®: Death of the Outsider™,2017-09-14,Arkane Studios,Action,$29.99
-48,Street Fighter V,2016-02-15,Capcom,Action,$19.99
-49,The Jackbox Party Pack 2,2015-10-13,"Jackbox Games, Inc.","Casual,Indie,Strategy",$24.99
-50,Armored Battle Crew [World War 1] - Tank Warfare and Crew Management Simulator,2019-06-05,Gattai Games,"Action,Adventure,Casual,Indie,Simulation,Strategy,Early Access",$19.99
-51,Battlefleet Gothic: Armada 2,2019-01-24,Tindalos Interactive,Strategy,$39.99
-52,RUNNING WITH RIFLES,2015-04-02,Osumia Games,"Action,Indie",$14.99
-53,The Witcher: Enhanced Edition Director's Cut,2008-09-16,CD PROJEKT RED,"Action,RPG",$9.99
-54,Middle-earth™: Shadow of War™,2017-10-09,Monolith Productions,"Action,Adventure,RPG",Demo Middle-earth™: Shadow of War™
-55,Forts,2017-04-19,EarthWork Games,"Action,Strategy",$14.99
-56,The Lord of the Rings Online™,2012-06-06,"Standing Stone Games, LLC","Free to Play,Massively Multiplayer,RPG",Play for Free!
-57,Stellaris: Ascension Pack,,Paradox Development Studio,"Simulation,Strategy",
-58,Dungeon Munchies,2019-06-05,maJAJa,"Action,Adventure,Indie,Early Access",$13.99
-59,Grand Theft Auto IV: Complete Edition,2010-10-27,"Rockstar North,Rockstar Toronto","Action,Adventure",$29.99
-60,Pillars of Eternity,2015-03-26,Obsidian Entertainment,RPG,$59.98
-61,Graveyard Keeper,2018-08-15,Lazy Bear Games,"Adventure,Indie,RPG,Simulation",$19.99
-62,The Elder Scrolls®: Legends™,2017-05-31,"Sparkypants Studios, LLC",Free to Play,Free to Play
-63,RESIDENT EVIL 2 / BIOHAZARD RE:2 Deluxe Edition,,"CAPCOM Co., Ltd.",Action,$69.99
-64,Northgard,2018-03-07,Shiro Games,"Indie,Simulation,Strategy",$29.99
-65,Realm Royale,2018-06-05,Heroic Leap Games,"Action,Free to Play,Early Access",Free To Play
-66,Sid Meier’s Civilization VI Gold Edition,,Firaxis Games,Strategy,
-67,Gang Beasts,2017-12-12,Boneloaf,"Action,Adventure,Casual,Indie",$19.99
-68,Age of Empires Legacy Bundle,,Ensemble Studios,"Simulation,Strategy",
-69,Total War: MEDIEVAL II – Definitive Edition,2006-11-15,"CREATIVE ASSEMBLY,Feral Interactive (Mac),Feral Interactive (Linux)",Strategy,$24.99
-70,Tales of Vesperia: Definitive Edition,2019-01-10,"QLOC,BANDAI NAMCO Studios Inc.",RPG,$49.99
-71,FINAL FANTASY X/X-2 HD Remaster,2016-05-12,Square Enix,RPG,$29.99
-72,Return of the Obra Dinn,2018-10-18,Lucas Pope,"Adventure,Indie",$19.99
-73,Castle Crashers®,2012-09-26,The Behemoth,"Action,Adventure,Casual,Indie,RPG",$14.99
-74,FINAL FANTASY XV EPISODE ARDYN COMPLETE EDITION,,Square Enix,RPG,
-75,Call of Duty®: WWII,2017-11-02,"Sledgehammer Games,Raven Software",Action,1.020
-76,MudRunner,2017-10-30,Saber Interactive,Simulation,$24.99
-77,Keep Talking and Nobody Explodes,2015-10-08,Steel Crate Games,Indie,$76.95
-78,SPORE™,2008-12-19,Maxis™,Simulation,$19.99
-79,Contra Anniversary Collection,2019-06-11,Konami Digital Entertainment,Action,$19.99
-80,Fishing Planet,2015-08-11,Fishing Planet LLC,"Free to Play,Massively Multiplayer,Simulation,Sports",$19.99
-81,Grand Theft Auto V: Premium Online Edition & Great White Shark Card Bundle,,Rockstar North,"Action,Adventure",
-82,Just Cause™ 3,2015-11-30,Avalanche Studios,"Action,Adventure",$19.99
-83,BioShock Infinite,2013-03-25,"Irrational Games,Aspyr (Mac),Virtual Programming (Linux)",Action,$29.99
-84,Men of War: Assault Squad 2,2014-05-15,Digitalmindsoft,"Action,Simulation,Strategy",$84.97
-85,Dungeons & Dragons Online®,2012-06-25,"Standing Stone Games, LLC","Action,Adventure,Free to Play,Massively Multiplayer,RPG",Play for Free!
-86,NecroDancer ULTIMATE PACK,,Brace Yourself Games,"Action,Indie,RPG",$58.89
-87,JUMP FORCE,2019-02-14,"Spike Chunsoft Co., Ltd.",Action,$59.99
-88,Desert Skies,2019-05-30,White_Rabbit_Games,"Action,Adventure,Indie,Early Access",$19.99
-89,Ring of Elysium,2018-09-19,Aurora Studio,"Action,Free to Play,Massively Multiplayer,Early Access",Free To Play
-90,Super Neptunia RPG / 勇者ネプテューヌ /勇者戰幾少女,2019-06-20,Artisan Studios,"Action,Adventure,RPG",$39.99
-91,METAL GEAR SOLID V: THE PHANTOM PAIN,2015-09-01,Konami Digital Entertainment,"Action,Adventure",$19.99
-92,TEKKEN 7,2017-06-01,BANDAI NAMCO Studios Inc.,"Action,Sports",$39.99
-93,Golf It!,2017-02-17,Perfuse Entertainment,"Casual,Indie,Simulation,Sports,Early Access",$8.99
-94,Shadow Tactics: Blades of the Shogun,2016-12-06,Mimimi Productions,"Indie,Strategy",$39.99
-95,Heroes & Generals,2016-10-18,RETO MOTO,"Action,Free to Play,Indie,Massively Multiplayer,Strategy",Free to Play
-96,Ultimate Doom,1995-04-30,id Software,Action,$14.99
-97,GORN,2017-07-10,Free Lives,"Action,Indie,Early Access",$19.99
-98,DRAGON BALL FighterZ,2018-01-26,Arc System Works,Action,$59.99
-99,Fantasy Grounds,2014-05-09,"SmiteWorks USA, LLC","Indie,RPG,Strategy",$7.99
+0,DOOM,12-05-2016,id Software,Action,$19.99
+1,PLAYERUNKNOWN'S BATTLEGROUNDS,21-12-2017,PUBG Corporation,"Action,Adventure,Massively Multiplayer",$29.99
+2,BATTLETECH,24-04-2018,Harebrained Schemes,"Action,Adventure,Strategy",$39.99
+3,DayZ,13-12-2018,Bohemia Interactive,"Action,Adventure,Massively Multiplayer",$44.99
+4,EVE Online,06-05-2003,CCP,"Action,Free to Play,Massively Multiplayer,RPG,Strategy",0
+5,Grand Theft Auto V: Premium Online Edition,06-05-2003,Rockstar North,"Action,Adventure",0
+6,Devil May Cry 5,07-03-2019,"CAPCOM Co., Ltd.",Action,$59.99
+7,Human: Fall Flat,22-07-2016,No Brakes Games,"Adventure,Indie",$14.99
+8,They Are Billions,12-12-2017,Numantian Games,"Strategy,Early Access",$29.99
+9,Warhammer: Chaosbane,31-05-2019,Eko Software,"Action,Adventure,RPG",$49.99
+10,For The King,19-04-2018,IronOak Games,"Adventure,Indie,RPG,Strategy",$19.99
+11,Danganronpa V3: Killing Harmony,25-09-2017,"Spike Chunsoft Co., Ltd.",Adventure,$39.99
+12,TERA,05-05-2015,"Bluehole, Inc.","Action,Adventure,Free to Play,Massively Multiplayer,RPG",0
+13,Call of Duty®: Modern Warfare® Remastered,27-07-2017,"Raven Software,Beenox",Action,1.02
+14,Stonehearth,25-07-2018,Radiant Entertainment,"Indie,Simulation,Strategy",$19.99
+15,Hearts of Iron IV: Mobilization Pack,06-05-2003,Paradox Development Studio,"Simulation,Strategy",0
+16,Clone Drone in the Danger Zone,16-03-2017,Doborog Games,"Action,Indie,Early Access",$14.99
+17,GOD EATER 3,07-02-2019,BANDAI NAMCO Studios Inc.,Action,$59.99
+18,War Robots,05-04-2018,Pixonic,"Action,Free to Play",0
+19,Halo Wars: Definitive Edition,20-04-2017,"Ensemble Studios,Behaviour Interactive,343 Industries",Strategy,$19.99
+20,Call of Duty®: Black Ops,09-11-2010,Treyarch,Action,1.02
+21,Phoenix Wright: Ace Attorney Trilogy,09-04-2019,"CAPCOM Co., Ltd.",Adventure,$29.99
+22,Team Sonic Racing™,21-05-2019,Sumo Digital,Racing,$39.99
+23,Titan Quest Anniversary Edition,31-08-2016,"Iron Lore Entertainment,THQ Nordic","Action,RPG",$19.99
+24,Grand Theft Auto IV,02-12-2008,"Rockstar North,Rockstar Toronto","Action,Adventure",$19.99
+25,Portal Bundle,06-05-2003,Valve,"Action,Adventure",0
+26,Portal,10-10-2007,Valve,Action,$9.99
+27,Viscera Cleanup Detail,23-10-2015,RuneStorm,"Indie,Simulation",$12.99
+28,Neverwinter Nights: Enhanced Edition,27-03-2018,Beamdog,RPG,$57.91
+29,Ni no Kuni™ II: Revenant Kingdom,23-03-2018,Level-5,"Adventure,RPG",$59.99
+30,Tree of Savior (English Ver.),28-03-2016,"IMCGAMES Co.,Ltd.","Free to Play,Massively Multiplayer,RPG",0
+31,Hellblade: Senua's Sacrifice,08-08-2017,Ninja Theory,"Action,Adventure,Indie",$29.99
+32,Danganronpa 2: Goodbye Despair,18-04-2016,"Spike Chunsoft Co., Ltd.,Abstraction Games",Adventure,$19.99
+33,Yakuza 0,01-08-2018,SEGA,"Action,Adventure,RPG",$19.99
+34,The Escapists 2,21-08-2017,"Team17 Digital Ltd,Mouldy Toof Studios","Indie,Simulation,Strategy",$19.99
+35,"Star Wars: Battlefront 2 (Classic, 2005)",01-11-2005,Pandemic Studios,Action,$9.99
+36,Wizard101,02-09-2008,KingsIsle Entertainment,"Free to Play,Massively Multiplayer,RPG",0
+37,Life is Strange 2,26-09-2018,DONTNOD Entertainment,Adventure,$7.99
+38,Kingdoms of Amalur: Reckoning™,07-02-2012,"Big Huge Games,38 Studios","Action,RPG",$19.99
+39,Doom Classic Complete,06-05-2003,id Software,Action,$14.99
+40,"Warhammer 40,000: Dawn of War II: Retribution",28-02-2011,"Relic Entertainment,Feral Interactive (Mac/Linux)",Strategy,$29.99
+41,GOD WARS The Complete Legend,13-06-2019,"KADOKAWA GAMES, LTD","Adventure,RPG,Simulation",$29.99
+42,Counter-Strike: Source,01-11-2004,Valve,Action,$9.99
+43,The Evil Within,13-10-2014,Tango Gameworks,Action,$19.99
+44,The Binding of Isaac: Rebirth Complete Bundle,06-05-2003,"Nicalis, Inc.","Action,Adventure,Indie",0
+45,Bright Memory(Early Access) ,11-01-2019,FYQD-Studio,"Action,Adventure,Indie,Early Access",$6.99
+46,STAR WARS™ Empire at War - Gold Pack,16-02-2006,Petroglyph,Strategy,$19.99
+47,Dishonored®: Death of the Outsider™,14-09-2017,Arkane Studios,Action,$29.99
+48,Street Fighter V,15-02-2016,Capcom,Action,$19.99
+49,The Jackbox Party Pack 2,13-10-2015,"Jackbox Games, Inc.","Casual,Indie,Strategy",$24.99
+50,Armored Battle Crew [World War 1] - Tank Warfare and Crew Management Simulator,05-06-2019,Gattai Games,"Action,Adventure,Casual,Indie,Simulation,Strategy,Early Access",$19.99
+51,Battlefleet Gothic: Armada 2,24-01-2019,Tindalos Interactive,Strategy,$39.99
+52,RUNNING WITH RIFLES,02-04-2015,Osumia Games,"Action,Indie",$14.99
+53,The Witcher: Enhanced Edition Director's Cut,16-09-2008,CD PROJEKT RED,"Action,RPG",$9.99
+54,Middle-earth™: Shadow of War™,09-10-2017,Monolith Productions,"Action,Adventure,RPG",0
+55,Forts,19-04-2017,EarthWork Games,"Action,Strategy",$14.99
+56,The Lord of the Rings Online™,06-06-2012,"Standing Stone Games, LLC","Free to Play,Massively Multiplayer,RPG",0
+57,Stellaris: Ascension Pack,06-05-2003,Paradox Development Studio,"Simulation,Strategy",0
+58,Dungeon Munchies,05-06-2019,maJAJa,"Action,Adventure,Indie,Early Access",$13.99
+59,Grand Theft Auto IV: Complete Edition,27-10-2010,"Rockstar North,Rockstar Toronto","Action,Adventure",$29.99
+60,Pillars of Eternity,26-03-2015,Obsidian Entertainment,RPG,$59.98
+61,Graveyard Keeper,15-08-2018,Lazy Bear Games,"Adventure,Indie,RPG,Simulation",$19.99
+62,The Elder Scrolls®: Legends™,31-05-2017,"Sparkypants Studios, LLC",Free to Play,0
+63,RESIDENT EVIL 2 / BIOHAZARD RE:2 Deluxe Edition,06-05-2003,"CAPCOM Co., Ltd.",Action,$69.99
+64,Northgard,07-03-2018,Shiro Games,"Indie,Simulation,Strategy",$29.99
+65,Realm Royale,05-06-2018,Heroic Leap Games,"Action,Free to Play,Early Access",0
+66,Sid Meier’s Civilization VI Gold Edition,06-05-2003,Firaxis Games,Strategy,0
+67,Gang Beasts,12-12-2017,Boneloaf,"Action,Adventure,Casual,Indie",$19.99
+68,Age of Empires Legacy Bundle,06-05-2003,Ensemble Studios,"Simulation,Strategy",0
+69,Total War: MEDIEVAL II – Definitive Edition,15-11-2006,"CREATIVE ASSEMBLY,Feral Interactive (Mac),Feral Interactive (Linux)",Strategy,$24.99
+70,Tales of Vesperia: Definitive Edition,10-01-2019,"QLOC,BANDAI NAMCO Studios Inc.",RPG,$49.99
+71,FINAL FANTASY X/X-2 HD Remaster,12-05-2016,Square Enix,RPG,$29.99
+72,Return of the Obra Dinn,18-10-2018,Lucas Pope,"Adventure,Indie",$19.99
+73,Castle Crashers®,26-09-2012,The Behemoth,"Action,Adventure,Casual,Indie,RPG",$14.99
+74,FINAL FANTASY XV EPISODE ARDYN COMPLETE EDITION,06-05-2003,Square Enix,RPG,0
+75,Call of Duty®: WWII,02-11-2017,"Sledgehammer Games,Raven Software",Action,1.02
+76,MudRunner,30-10-2017,Saber Interactive,Simulation,$24.99
+77,Keep Talking and Nobody Explodes,08-10-2015,Steel Crate Games,Indie,$76.95
+78,SPORE™,19-12-2008,Maxis™,Simulation,$19.99
+79,Contra Anniversary Collection,11-06-2019,Konami Digital Entertainment,Action,$19.99
+80,Fishing Planet,11-08-2015,Fishing Planet LLC,"Free to Play,Massively Multiplayer,Simulation,Sports",$19.99
+81,Grand Theft Auto V: Premium Online Edition & Great White Shark Card Bundle,06-05-2003,Rockstar North,"Action,Adventure",0
+82,Just Cause™ 3,30-11-2015,Avalanche Studios,"Action,Adventure",$19.99
+83,BioShock Infinite,25-03-2013,"Irrational Games,Aspyr (Mac),Virtual Programming (Linux)",Action,$29.99
+84,Men of War: Assault Squad 2,15-05-2014,Digitalmindsoft,"Action,Simulation,Strategy",$84.97
+85,Dungeons & Dragons Online®,25-06-2012,"Standing Stone Games, LLC","Action,Adventure,Free to Play,Massively Multiplayer,RPG",0
+86,NecroDancer ULTIMATE PACK,06-05-2003,Brace Yourself Games,"Action,Indie,RPG",$58.89
+87,JUMP FORCE,14-02-2019,"Spike Chunsoft Co., Ltd.",Action,$59.99
+88,Desert Skies,30-05-2019,White_Rabbit_Games,"Action,Adventure,Indie,Early Access",$19.99
+89,Ring of Elysium,19-09-2018,Aurora Studio,"Action,Free to Play,Massively Multiplayer,Early Access",0
+90,Super Neptunia RPG,20-06-2019,Artisan Studios,"Action,Adventure,RPG",$39.99
+91,METAL GEAR SOLID V: THE PHANTOM PAIN,01-09-2015,Konami Digital Entertainment,"Action,Adventure",$19.99
+92,TEKKEN 7,01-06-2017,BANDAI NAMCO Studios Inc.,"Action,Sports",$39.99
+93,Golf It!,17-02-2017,Perfuse Entertainment,"Casual,Indie,Simulation,Sports,Early Access",$8.99
+94,Shadow Tactics: Blades of the Shogun,06-12-2016,Mimimi Productions,"Indie,Strategy",$39.99
+95,Heroes & Generals,18-10-2016,RETO MOTO,"Action,Free to Play,Indie,Massively Multiplayer,Strategy",0
+96,Ultimate Doom,30-04-1995,id Software,Action,$14.99
+97,GORN,10-07-2017,Free Lives,"Action,Indie,Early Access",$19.99
+98,DRAGON BALL FighterZ,26-01-2018,Arc System Works,Action,$59.99
+99,Fantasy Grounds,09-05-2014,"SmiteWorks USA, LLC","Indie,RPG,Strategy",$7.99
