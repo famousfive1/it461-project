@@ -20,6 +20,11 @@ async function main() {
   });
 
   console.log(trans);
+
+  console.log("\nTime: ");
+  let data = (await prisma.$metrics.json()).histograms;
+  console.log(data[0].value.sum + " ms");
+  console.log(data[2].value.sum + " ms");
 }
 
 main()
