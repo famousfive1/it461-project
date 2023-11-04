@@ -17,8 +17,10 @@ async function main() {
         game_id: i.game_id,
         review: i.review
     }));
-    p3.review.createMany({ data: f1 });
-    p4.review.createMany({ data: f2 });
+    await Promise.all([
+        p3.review.createMany({ data: f1 }),
+        p4.review.createMany({ data: f2 })
+    ]);
     console.log("Added");
 };
 

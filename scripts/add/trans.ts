@@ -17,8 +17,10 @@ async function main() {
         amount: i.amount,
         status: i.status
     }));
-    p3.transaction.createMany({ data: f1 });
-    p4.transaction.createMany({ data: f2 });
+    await Promise.all([
+        p3.transaction.createMany({ data: f1 }),
+        p4.transaction.createMany({ data: f2 })
+    ]);
     console.log("Added");
 };
 

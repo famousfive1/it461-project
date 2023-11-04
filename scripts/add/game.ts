@@ -10,7 +10,7 @@ async function main() {
     const f1 = games.map(i => ({
         id: i.id,
         name: i.name,
-        release: i.release_date,
+        release: new Date(i.release_date).toISOString(),
         price: i.price
     }));
     const f2 = games.map(i => ({
@@ -18,8 +18,10 @@ async function main() {
         developer: i.developer,
         genre: i.genre
     }));
-    p1.game.createMany({ data: f1 });
-    p2.game.createMany({ data: f2 });
+    await Promise.all([
+        p1.game.createMany({ data: f1 }),
+        p2.game.createMany({ data: f2 })
+    ]);
     console.log("Added");
 };
 

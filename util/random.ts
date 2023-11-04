@@ -32,7 +32,7 @@ function generateRandomTransactions(i: number): {
     const game_id = faker.number.int(99);
     const user_id = faker.number.int(99);
     const amount = faker.number.float({ min: 0, max: 100, precision: 0.01 });
-    const status = "";
+    const status = "Success";
     return { id, game_id, user_id, amount, status };
 }
 
@@ -61,7 +61,8 @@ function generateGames(i: number): {
 } {
     const id = i;
     const name = records[i].name;
-    const release_date = records[i].release_date;
+    const parts = records[i].release_date.split('-');
+    const release_date = parts.reverse().join('-');
     const developer = records[i].developer;
     const genre = records[i].genre;
     const price = Number.parseFloat( records[i].original_price.replace('$', '') );
