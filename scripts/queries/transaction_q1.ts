@@ -7,7 +7,7 @@ async function main() {
   const trans = await prisma.transaction.findMany({
     where: {
         amount: {
-            gt: 15
+            gt: 15,
         }
     }
   });
