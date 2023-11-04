@@ -6,12 +6,14 @@ const prisma = new PClient();
 async function main() {
   const trans = await prisma.transaction.findMany({
     where: {
-    
+        amount: {
+            gt: 15
+        }
     }
   });
 
-  // console.log(game_name);
-  // console.log(game_dev);
+  console.log(trans);
+
 }
 
 main()
