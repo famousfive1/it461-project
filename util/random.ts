@@ -32,7 +32,7 @@ function generateRandomTransactions(i: number): {
     status: string;
 } {
     const id = i;
-    const game_id = faker.number.int(count-1);
+    const game_id = faker.number.int(mod-1);
     const user_id = faker.number.int(count-1);
     const amount = faker.number.float({ min: 0, max: 100, precision: 0.01 });
     const status = "Success";
@@ -47,7 +47,7 @@ function generateRandomReviews(i: number): {
     rating: number;
 } {
     const id = i;
-    const game_id = faker.number.int(count-1);
+    const game_id = faker.number.int(mod-1);
     const user_id = faker.number.int(count-1);
     const review = faker.lorem.paragraph({ min: 1, max: 4 });
     const rating = faker.number.float({ min: 1, max: 5, precision: 0.1 });

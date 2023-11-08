@@ -6,13 +6,16 @@ import { PrismaClient as PClient5 } from "../../prisma/generated/client5";
 
 
 import { user } from "../../util/random";
+const f_size = user.length / 4;
 
 const prisma = [new PClient1(), new PClient2(), new PClient3(), new PClient4()];
 const prisma5 = new PClient5();
 
+
 async function main() {
+
     await Promise.all(prisma.map(
-        (c, i) => c.user.createMany({ data: user.slice(25*i, 25*i + 25) })
+        (c, i) => c.user.createMany({ data: user.slice(f_size*i, f_size*i + f_size) })
     ));
     await prisma5.user.createMany({data: user});
     console.log("Added");
