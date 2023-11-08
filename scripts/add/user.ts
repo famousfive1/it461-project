@@ -14,7 +14,7 @@ async function main() {
     await Promise.all(prisma.map(
         (c, i) => c.user.createMany({ data: user.slice(25*i, 25*i + 25) })
     ));
-    prisma5.user.createMany({data: user})
+    await prisma5.user.createMany({data: user});
     console.log("Added");
 };
 

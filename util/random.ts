@@ -8,6 +8,9 @@ const records = parse(content, {
     columns: true,
     skip_empty_lines: true
 });
+const count = 10000;
+// const mod = 100;
+const mod = records.length;
 
 function generateRandomUserData(i: number): {
     id: number;
@@ -29,8 +32,8 @@ function generateRandomTransactions(i: number): {
     status: string;
 } {
     const id = i;
-    const game_id = faker.number.int(99);
-    const user_id = faker.number.int(99);
+    const game_id = faker.number.int(count-1);
+    const user_id = faker.number.int(count-1);
     const amount = faker.number.float({ min: 0, max: 100, precision: 0.01 });
     const status = "Success";
     return { id, game_id, user_id, amount, status };
@@ -44,8 +47,8 @@ function generateRandomReviews(i: number): {
     rating: number;
 } {
     const id = i;
-    const game_id = faker.number.int(99);
-    const user_id = faker.number.int(99);
+    const game_id = faker.number.int(count-1);
+    const user_id = faker.number.int(count-1);
     const review = faker.lorem.paragraph({ min: 1, max: 4 });
     const rating = faker.number.float({ min: 1, max: 5, precision: 0.1 });
     return { id, game_id, user_id, review, rating };
@@ -60,16 +63,15 @@ function generateGames(i: number): {
     price: number
 } {
     const id = i;
-    const name = records[i].name;
-    const parts = records[i].release_date.split('-');
+    const name = records[i % mod].name;
+    const parts = records[i % mod].release_date.split('-');
     const release_date = parts.reverse().join('-');
-    const developer = records[i].developer;
-    const genre = records[i].genre;
-    const price = Number.parseFloat( records[i].original_price.replace('$', '') );
+    const developer = records[i % mod].developer;
+    const genre = records[i % mod].genre;
+    const price = Number.parseFloat( records[i % mod].original_price.replace('$', '') );
     return { id, name, release_date, developer, genre, price };
 }
 
-const count = 100;
 const iter = Array.apply(null, Array(count));
 export const user = iter.map((_, i) => generateRandomUserData(i));
 export const trans = iter.map((_, i) => generateRandomTransactions(i));
