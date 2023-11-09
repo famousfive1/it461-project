@@ -49,7 +49,6 @@ async function main() {
 
   prisma = [new PClient1(), new PClient2(), new PClient3(), new PClient4()];
   for (let a = 0; a < 30; a++) {
-
     await Promise.all([
         prisma[0].user.findMany(query),
         prisma[1].user.findMany(query),
@@ -59,16 +58,17 @@ async function main() {
   }
 
   console.log("\nDistributed Time : ");
-  let data2 = (await prisma[0].$metrics.json()).histograms;
-  console.log(data2[0].value.sum + " ms");
-  console.log(data2[2].value.sum + " ms");
+  for(let i = 0 ; i < 4; i++) {
+    let data2 = (await prisma[i].$metrics.json()).histograms;
+    console.log(data2[0].value.sum + " ms");
+    console.log(data2[2].value.sum + " ms");
+    console.log("--------------------");
+  }
 
   await prisma[0].$disconnect();
   await prisma[1].$disconnect();
   await prisma[2].$disconnect();
   await prisma[3].$disconnect();
-
-
 }
 
 main()
